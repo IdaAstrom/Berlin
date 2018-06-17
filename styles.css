@@ -119,7 +119,7 @@ p{
 
 .sandstrand {
   width: 100%;
-  height: 600px;
+  height: 570px;
 }
 
 .alesund img {
@@ -177,4 +177,7 @@ img {
   border: 2px solid #e0ebeb;
 }
 
-@media (max-width:600px) 
+@media (max-width:500px)
+.container {
+  flex-direction: column;
+}
