@@ -1,21 +1,172 @@
 body{
-  background-color: powderblue;
+  background-color: #d9f2e6;
+}
+
+ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cecece;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+  color: Grey;
+font-size: 15px;
+border-radius: black;
+font-family: 'Playfair Display', serif;
+margin-top: 2px;
+margin-bottom: 2px;
+text-align: center;
+}
+
+li a {
+    display: block;
+    color: Grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px
+}
+
+li a:hover {
+    background-color: #b7b7b7;
+}
+
 
 h1{
-  color:blue;
-font-size: 60px;
+  color: Grey;
+font-size: 40px;
+border-radius: black;
+font-family: 'Playfair Display', serif;
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  border-radius: black;
+  text-align: center;
+  font-size: 25px;
+}
+
+h3{
+  font-family: 'Playfair Display', serif;
+  border-radius: black;
+  text-align: left;
+  font-size: 17px;
+}
+
+h4{
+  font-family: 'Playfair Display', serif;
+  border-radius: black;
+  text-align: center;
+  font-size: 25px;
 }
 
 p{
-  color:black;
-font-size: 30px;
+  margin-top: 30px;
+  margin-bottom:70px;
+  color:Grey;
+  font-size: 17px;
+  font-family: 'Playfair Display', serif;
+  background-color: inherit;
 }
 
-.stycke2 img {
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.ram {
+  background-color: white;
+  justify-content: center;
+  width: 55%;
+  border: 2px Grey;
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 5px 5px 20px;
+  font-size: 10px;
+  color: Grey;
+}
+
+.container {
+  /*flexbox*/
+   display: flex;
+   justify-content: center;
+
+  /*styling*/
+   background: white;
+ }
+
+ .text1 {
+   /*flexbox*/
+    display: flex;
+    justify-content: right;
+
+   /*styling*/
+    background: #d9f2e6;
+  }
+
+.sandstrand img {
+  width: 100%;
+  height: 100%;
+}
+
+.sandstrand {
+  width: 100%;
+  height: 600px;
+}
+
+.alesund img {
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: auto;
 }
 
-.stycke2 {
-  width: 20%;
+.alesund {
+  width: 100%;
+}
+
+.boat img {
+  width: 120%;
+  height: auto;
+}
+
+.boat {
+  width: 83.5%;
+}
+
+
+.hus img {
+  width: 100%;
+  height: auto;
+}
+
+.hus {
+  width: 100%;
+  height: 50%;
+}
+
+.grekland img {
+  width: 100%;
+  height: auto;
+}
+
+.grekland {
+  width: 100%;
+  height: 50%;
+}
+
+.island img {
+  width: 100%;
+  height: auto;
+}
+
+.island{
+  width: 100%;
+  height: 50%;
 }
